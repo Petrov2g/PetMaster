@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Contact Us - PetMaster</title>
+    <title>Home - PetMaster</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
@@ -34,17 +34,46 @@
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">My Account</a>
+                        <a class="nav-link" href="myaccount.php">My Account</a>
                     </li>
                 </ul>
             </div>
         </div>
+    </nav>
+
+    <!-- Login Form -->
+    <div class="login-form">
+        <h1>Login here!</h1>
+        <form action="" method="">
+            <label>Username</label><br>
+            <input type="text" name="user" require><br>
+            <label>Password</label><br>
+            <input type="password" name="password" require><br>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="login-form">
+        <h1>Register here!</h1>
+        <form action="" method="">
+            <label>Username</label><br>
+            <input type="text" name="user" require><br>
+            <label>Email</label><br>
+            <input type="email" name="email" require><br>
+            <label>Password</label><br>
+            <input type="password" name="password" require><br>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+    
 
 
-        <!-- Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 
